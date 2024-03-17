@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "test": "ts-node ./src/test.ts",
+    "dev": "ts-node ./src/server.ts",
+    "format": "yarn prettier --write \"**/*.{ts,js,sol}\""
+  },
+  "dependencies": {
+    "prettier": "^3.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  }
+}
